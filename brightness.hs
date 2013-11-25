@@ -6,11 +6,11 @@ import System.Environment
 
 -- | configuration
 step :: Double
-step = 10.0
+step = 10
 minimal :: Double
-minimal = 10.0
+minimal = 10
 maximal :: Double
-maximal = 100.0
+maximal = 100
 maxbrightnesspath :: String
 maxbrightnesspath = "/sys/devices/pci0000:00/0000:00:02.0/drm/card0"
     ++ "/card0-eDP-1/intel_backlight/max_brightness"
